@@ -4,7 +4,7 @@ clc; clear;
 folderPath = 'C:\Users\Liluo\Desktop\轨道板数据\data_GDB\k13';
 data = catch_data(folderPath, 1);
 
-%% 数据预处理
+%% 数据预处理aa
 % 有没有不用data.字段名的方法
 % 直接将结构体转换为数组
 dataArray = struct2array(data);
